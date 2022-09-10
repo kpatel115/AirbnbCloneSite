@@ -6,6 +6,7 @@ header{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+/* Navigation Bar*/
 nav{
     position:relative;
 }
@@ -24,10 +25,12 @@ nav ul {
 nav ul li {
     padding: 0 10px;
 }
+
+/* Header Cards - Find places Card and Background Card*/
 .header-container {
     position: relative;
     height: 100vh;
-
+    margin-bottom: 50px;
 }
 .background-card{
     z-index: 1;
@@ -55,6 +58,7 @@ nav ul li {
     background: white;
     box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
 }
+
 .search {
     border: 2px solid gainsboro;
     border-radius: 8px;
@@ -85,7 +89,48 @@ nav ul li {
 .search-btn{
     margin-top: 1em
 }
+/* Try Hosting Section*/
 
+.hosting {
+    position: relative;
+    background-color: #232323;
+    color: white;
+    border-radius: 8px;
+    margin: auto;
+    padding: 8px;
+    max-width: 90%;
+    height: 100vh;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+span {
+    text-align: center;
+}
+
+.hosting-image img {
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    max-width: 100%;
+    max-height: 75%;
+}
+/* Review Section */
+.reviews{
+    margin-top: 50px;
+}
+.review-header{
+    text-align: center;
+}
+.review-card {
+
+}
+.review-image{
+    max-width: 100%;
+
+}
 @media (max-width: 750px) {
     .background-card{
         display: none;
