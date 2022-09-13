@@ -104,58 +104,87 @@ nav ul li {
 .search-btn{
     margin-top: 1em
 }
-/* Try Hosting Section*/
+/* Header Cards - Find places Card and Background Card*/
 
+/* Try Hosting Section*/
 .hosting {
+    margin:0 40px;
+    padding:0 ;
+    text-align: center;
+    height: 120vh;
     position: relative;
-    background-color: #232323;
-    color: white;
+}
+.hosting-card{
     border-radius: 8px;
-    margin: auto;
-    padding: 8px;
-    max-width: 90%;
+    background-color: rgba(26, 26, 26, 0.767);
+    position: relative;
     height: 100vh;
-    text-align: center;
+    padding-top: 50px;
+    color: white;
 }
-h2{
-    text-align: center;
-}
-span {
-    text-align: center;
+.hosting-card h2, span, button {
+    display: block;
+    padding: 5px 0;
 }
 
 .hosting-image img {
-
     position: absolute;
-    left: 0px;
     bottom: 0px;
+    display: block;
     max-width: 100%;
-    max-height: 75%;
+    height: auto;
 }
+/* Try Hosting Section*/
+
 /* Review Section */
 .reviews{
     margin-top: 50px;
+    margin: 3em 2em 0em 2em;
 }
-.review-header{
-    text-align: center;
+.review-header h4, p{
+    text-align: left;
+    margin-left: 10px;
+
 }
 .review-card {
-    margin: 0;
     padding: 10px;
     height: 120vh;
+}
+.review-card p {
+    display: inline-block;
+}
+.review-profile {
+    width: auto;
+    height: 100px;
+}
+.review-profile-pic {
+    width: 100px;
+    height: auto;
 }
 .review-image{
     position: relative;
     max-width:100%;
+    height: auto;
     margin:0;
-    padding:10px;
+    padding:0px;
 
 }
 .review-image img{
-
+    object-fit: cover;
     max-width: 100%;
     max-height: 75%;
+    height: auto;
+    border-radius: 8px;
 }
+.review-name .review-area .review-comment {
+    float: left;
+    margin: 5px 0px;
+}
+.review-name {
+    display: block;
+    
+}
+
 @media (max-width: 750px) {
     .background-card{
         display: none;
