@@ -41,14 +41,15 @@ nav ul li {
     z-index: 1;
     border-radius: 8px;
     position: absolute;
-    right: 40px;
+    right: 75px;
     text-align: right;
 }
 .background-card img {
     border-radius: 8px;
 }
-.header-image {
+.background-image {
     max-width: 90%;
+    width: 1000px;
     height: 80vh;
     object-fit: cover;
     border-radius: 8px;
@@ -195,5 +196,6 @@ nav ul li {
         text-align: center;
         box-shadow: none
     }
+    /* Flip hosting card horizontally at 750*/
     
 }
