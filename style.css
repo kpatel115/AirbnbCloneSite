@@ -189,36 +189,39 @@ nav ul li {
 
 /* Review Section */
 .reviews{
-    margin-top: 50px;
     margin: 3em 2em 0em 2em;
 }
 .review-header h4, p{
-    text-align: left;
-    margin-left: 10px;
-
+    float: left;
 }
 .review-card {
-    padding: 10px;
-    height: 120vh;
-}
-.review-card p {
-    display: inline-block;
+    height: 110vh;
 }
 .review-profile {
+    overflow: nowrap;
+    white-space: nowrap;
     width: auto;
-    height: 100px;
-}
-.review-profile-pic {
-    width: 100px;
-    height: auto;
-}
-.review-image{
+    height: 200px;
     position: relative;
-    max-width:100%;
+}
+.review-profile-pic{
+    width: 3.2em;
     height: auto;
-    margin:0;
-    padding:0px;
-
+    position: absolute;
+    left: 0em;
+    top: 7.5em;
+}
+.review-profile h4 {
+    font-size: 1em;
+    position: absolute;
+    top: 7.7em;
+    left: 3.7em;
+}
+.review-profile p {
+    font-size: .75em;
+    position: absolute;
+    top: 12.5em;
+    left: 5em;
 }
 .review-image img{
     object-fit: cover;
@@ -227,14 +230,10 @@ nav ul li {
     height: auto;
     border-radius: 8px;
 }
-.review-name .review-area .review-comment {
-    float: left;
-    margin: 5px 0px;
-}
-.review-name {
-    display: block;
-    
-}
+
+
+
+
 
 @media (max-width: 750px) {
     .background-card{
