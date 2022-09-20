@@ -256,41 +256,69 @@ nav ul li {
     gap: 5px;
 }
 /* Just Booked*/
-.booked-cards {
-    margin: 5px auto;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(400px, 1fr));
-    gap: 30px;
-    font-family: inherit;
-}
-.booked-card {
-    box-shadow:  0 0 0 0.3px black;
-}
-.just-booked-card-1 svg {
+.just-booked {
+    margin: 0 25px;
+    max-height: auto;
 
 }
+.booked-cards {
+    margin: auto 0;
+    max-width: 100%;
+    max-height: ;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(400px, 1fr));
+    gap: 30px;
+    font-family: inherit;
+    font-size: 0.9em;
+}
+.booked-card {
+    
+}
+
 .booked-card img {
-    width: 100%;
-    display: block;
+    max-width: 100%;
+    max-height: 70vh;
+    border-radius: 8px;
+    object-fit: cover;
 }
 .booked-card-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     line-height: 1.5;
-    padding: 15px;
-}
-.booked-card-content h5 {
-    float: left;
+    padding: 5px;
+    font-size: 0.9em;
+    position: relative;
+    white-space: nowrap;
 }
 .booked-card-content p {
-    float: right;
+    font-size: 1.1em;
+    display: inline-block;
+}
+.booked-card-content i {
+    font-size: 85%;
+    position: absolute;
+    left: 342px;
+    bottom: 34px;
+}
+.booked-card-content h5 {
+    font-size: 1em;
+}
+.booked-card-info{
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+    float: left;
+
+}
+.booked-card-info > p:first-of-type {
+    color: rgb(128, 128, 128);
 }
 .booked-card-info {
     padding: 15px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 /* Footer */
 footer p {
