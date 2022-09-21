@@ -46,17 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* End of CSS RESET*/
 
 body {
     background-color:white;
     font-family: 'Roboto', sans-serif;
 }
 header{
-    
 }
 .logo {
-    
 }
 /* Navigation Bar*/
 nav{
@@ -136,20 +134,17 @@ nav ul li {
     text-align: justify;
 }
 .location {
-    
 }
 .check-in{
     float:left;
 }
 .check-out{
-
 }
 .adults{
     
     float: left;
 }
 .children{
-    
 }
 .search-btn{
     margin-top: 1em
@@ -158,7 +153,7 @@ nav ul li {
 
 /* Try Hosting Section*/
 .hosting {
-    margin:0 40px;
+    margin:5px 25px;
     padding:0 ;
     text-align: center;
     height: 120vh;
@@ -182,45 +177,58 @@ nav ul li {
     bottom: 0px;
     display: block;
     max-width: 100%;
+    border-radius: 8px;
     height: auto;
 }
 /* Try Hosting Section*/
 
 /* Review Section */
 .reviews{
-    margin: 3em 2em 0em 0.5em;
+    margin: 0;
 }
-.review-header h4, p{
-    float: left;
+.review-header {
+    margin: 5px 25px;
 }
+
 .review-card {
-    height: 110vh;
+    height: 95vh;
+    margin: 10px 25px;
+}
+.review-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: left;
+    font-size: 0.9em;
+    position: relative;
+    clear: none;  
+}
+.review-info > p:first-of-type {
+    font-size: 0.9em;
+    align-items: flex-end;
+
 }
 .review-profile {
-    overflow: nowrap;
-    white-space: nowrap;
-    width: auto;
-    height: 200px;
-    position: relative;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 25px 25px;
+    grid-template-areas: 
+    "p n "
+    ". s "
+    ;
 }
 .review-profile-pic{
     width: 3.2em;
     height: auto;
-    position: absolute;
-    left: 0em;
-    top: 7.5em;
+    grid-area: p;
 }
 .review-profile h4 {
     font-size: 1em;
-    position: absolute;
-    top: 7.7em;
-    left: 3.7em;
+    grid-area: n;
 }
 .review-profile p {
     font-size: .75em;
-    position: absolute;
-    top: 12.5em;
-    left: 5em;
+    grid-area: s;
 }
 .review-image img{
     object-fit: cover;
@@ -336,26 +344,75 @@ nav ul li {
     color: rgb(128, 128, 128);
     margin: 0 0.1px;
 }
-.booked-card-info {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
+
+
+
 /* Footer */
 .pre-footer {
-    
+    margin: 5px 25px;
 }
 .travel-section{
     display: flex;
     flex-direction: column;
     margin: 20px 0;
 }
+.travel-links {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.travel-links h6 {
+    font-size: 0.9em;
+    padding: 0 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.travel-links h5 {
+    font-size: 0.9em;
+    padding: 0 0.3px;
+
+}
+.travel-links > h6:last-of-type {
+    text-decoration: none;
+    font-weight: lighter;
+    cursor: default;
+}
+footer {
+    margin: 5px 25px;
+    height: 15vh;
+}
 footer p {
-    display: block;
+    font-size: 0.85em;
+    margin-left: 5px;
+}
+footer ul {
+    margin-left: -27px;
+}
+footer li {
+    padding: 0px;
+    margin-right: 20px;
+}
+footer ul li {
+    font-size: 0.85em;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10px 10px 10px 10px;
+}
+.grid-item1{
+grid-row:  1/3;
+}
+.grid-item2{
+    grid-row: 3/5;
 
 }
 .footer-links {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    align-items: center;
+    
 }
 
 .features-card-1 svg {}
