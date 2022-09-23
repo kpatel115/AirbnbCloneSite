@@ -84,11 +84,12 @@ height: 100vh;
 }
 .heading-wrapper{
 margin: 0px 80px;
-padding: 40px 0px;
+padding: 34px 0px;
 position: relative;
 }
 .search-wrapper{
-  z-index: 1;
+  position: relative;
+  z-index: 2;
   max-width: 420px;
   width: 100%;
   height: 522px;
@@ -98,7 +99,6 @@ position: relative;
   padding: 35px;
 }
 .search-card{
-  z-index: 1;
 }
 .search-heading h2 {
   font-weight: 650;
@@ -126,15 +126,26 @@ position: relative;
   
 }
 .background-card{
-  z-index: 2;
   position: absolute;
   top: 0px;
   right: 0px;
 }
 .background-card img{
-  z-index: 2;
   border-radius: 8px;
   max-width: 100%;
   height: 100vh;
   object-fit: cover;
+}
+/* Hosting Section*/
+.hosting-container {
+  margin: 0px 0px;
+  height: 60vh;
+}
+.hosting-wrapper {
+  margin: 0px 80px;
+  
+}
+.hosting-card {
+  float: left;
+  background-color: gray;
 }
