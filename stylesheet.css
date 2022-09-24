@@ -136,24 +136,32 @@ position: relative;
   height: 100vh;
   object-fit: cover;
 }
+
 /* Hosting Section*/
 .hosting-container {
   margin: 0px 0px;
   height: 70vh;
 }
 .hosting-wrapper {
+  position: relative;
+  z-index: 2;
   margin: 0px 80px;
   padding: 0px 0px;
   height: 364px;
-  position: relative;
+  
 }
 .hosting-card {
+  position: static;
   width: 100%;
   height: 100%;
   float: left;
-  background-color: gray;
   color: white;
   border-radius: 15px; 
+}
+.hosting-text{
+  position: relative;
+  z-index: 9;
+  width: 40%;
 }
 .hosting-card h2, span button{
   display: inline-block;
@@ -182,16 +190,20 @@ position: relative;
 }
 /* */
 .hosting-image{
+  position: static;
   height: 364px;
   max-width: 100%;
   border-radius: 12px;
+  
 }
 .hosting-image img {
-  position: relative;
-  z-index: 2;
-  border-radius: 12px;
-  float: right;
-  width: 60%;
+  position: static;
+  z-index: 3;
+  width: 100%;
   max-width: 100%;
   height: inherit;
+  object-fit: cover;
+  object-position: right bottom  ;
+  border-radius: 12px;
+ 
 }
