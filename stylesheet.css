@@ -205,5 +205,41 @@ position: relative;
   object-fit: cover;
   object-position: right bottom  ;
   border-radius: 12px;
- 
+}
+/* Review Section*/
+
+.review-container {
+  margin: 0px 0px;
+  height: 89vh;
+}
+.review-wrapper {
+  margin: 0px 80px;
+}
+.review-header {
+
+}
+.review-header p, strong {
+  color: gray;
+  font-size: 0.95em;
+}
+.review-card{
+  width: 345px;
+  height: 400px;
+}
+.review-image{
+  width: inherit;
+  height: 245px;
+} 
+.review-image img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.review-info {
+  width: inherit;
+  height: 100px;
+}
+.review-profile{
+  width: inherit;
+  height: 50px;
 }
