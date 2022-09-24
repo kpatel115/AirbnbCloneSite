@@ -80,11 +80,11 @@ ul i {
 
 .heading-container{
 margin: 0px 0px;
-height: 100vh;
+height: 110vh;
 }
 .heading-wrapper{
 margin: 0px 80px;
-padding: 34px 0px;
+padding: 20px 0px;
 position: relative;
 }
 .search-wrapper{
@@ -139,13 +139,20 @@ position: relative;
 /* Hosting Section*/
 .hosting-container {
   margin: 0px 0px;
-  height: 60vh;
+  height: 70vh;
 }
 .hosting-wrapper {
   margin: 0px 80px;
-  
+  padding: 0px 0px;
+  height: 364px;
+  position: relative;
 }
 .hosting-card {
+  width: 100%;
+  height: 100%;
   float: left;
+  padding: ;
   background-color: gray;
+  border-radius: 15px;
+  
 }
