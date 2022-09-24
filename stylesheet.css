@@ -151,8 +151,47 @@ position: relative;
   width: 100%;
   height: 100%;
   float: left;
-  padding: ;
   background-color: gray;
-  border-radius: 15px;
-  
+  color: white;
+  border-radius: 15px; 
+}
+.hosting-card h2, span button{
+  display: inline-block;
+}
+.hosting-card h2{
+  position: absolute;
+  top: 90px;
+  left: 70px;
+  font-size: 2.5em;
+}
+.hosting-span{
+  width: 320px;
+  position: absolute;
+  top: 140px;
+  left: 70px;
+}
+.hosting-button {
+  position: absolute;
+  top: 230px;
+  left: 70px;
+}
+.hosting-button button {
+  font-weight: 600;
+  padding: 10px 23px;
+  border-radius: 8px;
+}
+/* */
+.hosting-image{
+  height: 364px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+.hosting-image img {
+  position: relative;
+  z-index: 2;
+  border-radius: 12px;
+  float: right;
+  width: 60%;
+  max-width: 100%;
+  height: inherit;
 }
