@@ -83,7 +83,7 @@ margin: 0px 0px;
 height: 110vh;
 }
 .heading-wrapper{
-margin: 0px 80px;
+margin: 0px 75px;
 padding: 20px 0px;
 position: relative;
 }
@@ -145,7 +145,7 @@ position: relative;
 .hosting-wrapper {
   position: relative;
   z-index: 2;
-  margin: 0px 80px;
+  margin: 0px 75px;
   padding: 0px 0px;
   height: 364px;
   
@@ -213,7 +213,8 @@ position: relative;
   height: 89vh;
 }
 .review-wrapper {
-  margin: 0px 80px;
+  margin: 0px 75px;
+  height: 89vh;
 }
 .review-header {
 
@@ -223,12 +224,14 @@ position: relative;
   font-size: 0.95em;
 }
 .review-card{
+  float: left;
   width: 345px;
   height: 400px;
+  margin: 0px 10px 0px 0px;
 }
 .review-image{
   width: inherit;
-  height: 245px;
+  height: 230px;
 } 
 .review-image img {
   width: 100%;
@@ -239,7 +242,39 @@ position: relative;
   width: inherit;
   height: 100px;
 }
+.review-info p:first-child {
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+.review-info p:last-child {
+  font-size: 0.9em;
+  margin-top: -10px;
+  height: 75px;
+  line-height: 1.25em;
+  color: rgb(85, 85, 85);
+}
 .review-profile{
   width: inherit;
-  height: 50px;
+  height: 62px;
+  position: relative;
+}
+.review-profile img {
+  width: 45px;
+  margin-top: 17px;
+}
+.review-profile h4{
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 650;
+  position: absolute;
+  top: 18px;
+  left: 58px;
+}
+.review-profile p{
+  display: inline-block;
+  font-size: 0.83em;
+  position: absolute;
+  top: 40px;
+  left: 58px;
+  color: rgb(124, 124, 124);
 }
