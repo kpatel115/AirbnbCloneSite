@@ -278,3 +278,46 @@ position: relative;
   left: 58px;
   color: rgb(124, 124, 124);
 }
+
+.features-container{
+  margin: 0px 0px;
+  height: 50vh;
+  }
+  .features-wrapper{
+  margin: 0px 75px;
+  padding: 20px 0px;
+  position: relative;
+  height: 40vh;
+  }
+  
+  .features-card-1{
+    width: 350px;
+    height: 115px;
+    float: left;
+    margin: 0px 7px 0px 0px;
+  }
+  .features-card-1 i {
+    display: block;
+    font-size: 1.75em;
+    margin-bottom: 12px;
+  }
+  .features-card-1 h5, p {
+    display: inline-block;
+  }
+  .features-card-1 p {
+    font-size: 0.9em;
+  }
+  .features-card-2{
+    width: 350px;
+    height: 30px;
+  }
+  .features-card-2 i, h5, p {
+    display: inline-block;
+  }
+  .features-card-3{
+    width: 350px;
+    height: 30px;
+  }
+  .features-card-3 i, h5, p {
+    display: inline-block;
+  }
