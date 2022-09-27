@@ -338,7 +338,9 @@ position: relative;
 .booked-card-content {
   display: flex;
   justify-content: space-between;
-  height: 25px;
+  align-items: flex-start;
+  height: 22px;
+  position: relative;
 }
 .booked-card-content h5 {
   font-size: 0.85em;
@@ -346,22 +348,28 @@ position: relative;
 }
 .booked-card-content i {
   font-size: 0.7em;
+  position: absolute;
+  right: 28px;
+  top: 6px;
+
 }
 .booked-card-content p {
   font-size: 0.9em;
 }
 .booked-card-info {
-  height: 60px;
+  height: 43px;
   display: flex;
-  justify-content: flex-start;
+  align-content: flex-start;
   flex-flow: column nowrap;
-;
 }
 .booked-card-info p:first-child {
+  display: inline-flex;
   font-size: 0.82em;
   color: rgb(110, 110, 110);
+  margin-bottom: 0px;
 }
 .booked-card-info p:last-child, strong{
   color: black;
+  display: inline-flex;
   font-size: 0.9em;
 }
