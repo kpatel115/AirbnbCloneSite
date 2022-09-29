@@ -323,7 +323,7 @@ position: relative;
   width: 250px;
   height: 320px;
   float: left;
-  margin: 0px 7px 0px 0px;
+  margin: 10px 7px 0px 0px;
 }
 .booked-card-img {
   width: 250px;
@@ -338,13 +338,12 @@ position: relative;
 .booked-card-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   height: 22px;
   position: relative;
 }
 .booked-card-content h5 {
   font-size: 0.85em;
-  align-self: center;
+  
 }
 .booked-card-content i {
   font-size: 0.7em;
@@ -371,5 +370,6 @@ position: relative;
 .booked-card-info p:last-child, strong{
   color: black;
   display: inline-flex;
-  font-size: 0.9em;
+  font-size: 0.95em;
+  align-content: center;
 }
