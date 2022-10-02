@@ -285,7 +285,7 @@ position: relative;
   }
   .features-wrapper{
   margin: 0px 75px;
-  padding: 20px 0px;
+  padding: 0px;
   position: relative;
   height: 40vh;
   }
@@ -372,4 +372,47 @@ position: relative;
   display: inline-flex;
   font-size: 0.95em;
   align-content: center;
+}
+
+.pre-footer {
+  margin: 0px 0px;
+  height: 70vh;
+}
+.travel-wrapper {
+  margin: 0px 75px;
+  position: relative;
+  height: 30vh;
+}
+.travel-section{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  height: 25vh;
+}
+.travel-links-wrapper {
+  margin: 0px 75px;
+  position: relative;
+  height: 30vh;
+}
+.travel-links {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+}
+.travel-links h6 {
+  font-size: 0.9em;
+  padding: 0 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.travel-links h5 {
+  font-size: 0.9em;
+  padding: 0 0.3px;
+
+}
+.travel-links > h6:last-of-type {
+  text-decoration: none;
+  font-weight: lighter;
+  cursor: default;
 }
