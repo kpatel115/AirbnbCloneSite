@@ -283,13 +283,20 @@ position: relative;
   margin: 0px 0px;
   height: 50vh;
   }
+
+  .features-container hr:last-child{
+    margin: 0px 75px;
+    color: rgb(172, 172, 172);
+  }
   .features-wrapper{
   margin: 0px 75px;
   padding: 0px;
   position: relative;
   height: 40vh;
   }
-  
+  .features-wrapper hr{
+    color: rgb(172, 172, 172);
+  }
   .features-card-1{
     width: 350px;
     height: 115px;
@@ -324,6 +331,13 @@ position: relative;
   height: 320px;
   float: left;
   margin: 10px 7px 0px 0px;
+}
+.booked-wrapper button {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 7px 20px;
+  font-weight: 600;
 }
 .booked-card-img {
   width: 250px;
@@ -376,29 +390,40 @@ position: relative;
 
 .pre-footer {
   margin: 0px 0px;
-  height: 70vh;
-}
-.travel-wrapper {
-  margin: 0px 75px;
-  position: relative;
   height: 30vh;
 }
+
 .travel-section{
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
-  height: 25vh;
-}
-.travel-links-wrapper {
+  height: 20vh;
   margin: 0px 75px;
+
   position: relative;
-  height: 30vh;
+}
+.travel-section button{
+  position: absolute;
+  padding: 10px 20px;
+  font-weight: 600;
+  bottom: 0px;
+}
+.travel-section h2{
+font-size: 1.5em;
+}
+.travel-section p {
+font-size: 0.95em;
+color: rgb(117, 117, 117);
+}
+.pre-footer-2 {
+  margin: 0px 0px;
+  height: 13vh;
 }
 .travel-links {
-  padding: 50px 0px;
+  height: 5vh;
+  margin: 0px 75px;
   display: flex;
   flex-direction: row;
-  height: 15vh;
+
 }
 .travel-links h6 {
   font-size: 0.9em;
@@ -415,4 +440,26 @@ position: relative;
   text-decoration: none;
   font-weight: lighter;
   cursor: default;
+}
+.footer-link-container {
+  margin: 0px 0px;
+  height: 18vh;
+}
+
+.footer-wrapper {
+  height: 10vh;
+  margin: 0px 75px;
+} 
+.footer-wrapper hr{
+  color: rgb(172, 172, 172);
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8em;
+  margin-left: -35px;
+}
+.footer-links li {
+  padding: 0px 10px;
 }
