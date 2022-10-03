@@ -349,6 +349,7 @@ position: relative;
   object-fit: cover;
   border-radius: 15px;
 }
+
 .booked-card-content {
   display: flex;
   justify-content: space-between;
