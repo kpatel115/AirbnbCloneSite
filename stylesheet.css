@@ -484,12 +484,44 @@ color: rgb(117, 117, 117);
 @media only screen and (max-width: 1120px) {
   .nav-flex-container {
     list-style: none;
-    margin: 0em 50px;
+    margin: 0em 40px;
     padding: 15px 0px;
 
   }
   .heading-wrapper{
-      margin: 0px 50px;
+      margin: 0px 40px;
 
+  }
+}
+@media only screen and (max-width: 745px) {
+  .nav-flex-container {
+    list-style: none;
+    margin: 0px 25px;
+    padding: 15px 0px;
+
+  }
+  .heading-container{
+    height: 75vh;
+  }
+  .heading-wrapper{
+    height: auto;
+    margin: 0px 25px;
+    padding: 10px 0px;
+  }
+  .background-wrapper img{
+    display: none;
+  }
+  .background-wrapper{
+    display: none;
+  }
+  .search-wrapper{
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px;
+
+
+  padding: 10px 0px;
   }
 }
