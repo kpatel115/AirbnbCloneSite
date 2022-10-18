@@ -501,7 +501,7 @@ color: rgb(117, 117, 117);
 
   }
   .heading-container{
-    height: 75vh;
+    height: 73vh;
   }
   .heading-wrapper{
     height: auto;
@@ -520,8 +520,13 @@ color: rgb(117, 117, 117);
   max-width: 100%;
   height: auto;
   border-radius: 0px;
-
-
+  box-shadow: none;
   padding: 10px 0px;
+  }
+  .search-heading h2{
+    font-size: 1.4em;
+  }
+  .search-heading p {
+    font-size: 1.05em
   }
 }
