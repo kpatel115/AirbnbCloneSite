@@ -42,23 +42,44 @@
             <h2>Find places to stay on Airbnb</h2>
             <p>Discover entire homes and private rooms perfect for any trip.</p>
           </div>
-          <div class="boot-input">
-            <div class="row w-100">
-              <input class="search location" type="text" placeholder="Anywhere">
-            </div>
-            <div class="row w-100">
-              <input class="col search check-in mt-2" type="date" placeholder="Add Date">
-              <input class="col search check-out mt-2" type="date" placeholder="Add Date">
-            </div>
-            <div class="row w-100">
-              <input class="col search adults mt-2 mb-3" placeholder="Adults" type="number">
-              <input class="col search children mt-2 mb-3" placeholder="Children" type="number">
-            </div>
+          <div class="form-entry-1">
+            <label for="query"><span>LOCATION</span>
+              <div>
+                <input type="text" placeholder="Anywhere" id="query">
+              </div>
+            </label>
+          </div>
+          <div class="form-entry-1">
+            <label for="query"><span>CHECK IN</span>
+              <div>
+                <input type="text" placeholder="Add Date" id="query">
+              </div>
+            </label>
+            <label for="query"><span>CHECK OUT</span>
+              <div>
+                <input type="datetime" placeholder="Add Date" id="query">
+              </div>
+            </label>
+          </div>
+          <div class="form-entry-1">
+            <label for="query"><span>ADULTS</span>
+              <div>
+                <input type="number" placeholder="2" id="query">
+              </div>
+            </label>
+            <label for="query"><span>CHILDREN</span>
+              <div>
+                <input type="number" placeholder="Anywhere" id="query">
+              </div>
+            </label>
+          </div>
+          <div class="amenities">
             <h5>AMENITIES</h5>
             <button type="button" class="btn btn-outline-dark">Hot Tub</button>
             <button type="button" class="btn btn-outline-dark">Pool</button>
             <button type="button" class="btn btn-outline-dark">WiFi</button>
             <button type="button" class="btn btn-danger btn-lg col-12 mt-3 "><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+          </div>
           </div>
         </div>
       </div>
@@ -92,10 +113,10 @@
   <section class="review-container">
     <div class="review-wrapper">
     <div class="review-header">
-        <h4>What guests are saying about homes in United States</h4>
+        <h3>What guests are saying about homes in United States</h3>
         <p>Over <strong>84,000,000</strong> guest reviews with an average of <strong>4.8 out of 5 stars</strong></p>
     </div>
-
+    <div class="review-cards">
     <div class="review-card">
         <div class="review-image">
             <img src="images/review/reviewinterior4.jpg" alt="interier-room1">
@@ -145,33 +166,36 @@
         <h4>Ashley</h4>
         <p>United States</p>
     </div>
+  </div>
 </div>
 </div>
 </section>
 <section class="features-container">
   <div class="features-wrapper">
-  <div class="features-card">
       <h4>Travel with peace of mind when you book on Airbnb</h4>
       <hr>
-      
-      <div class="features-card-1">
+      <div class="features-cards">
+
+      <div class="features-card">
         <i class="fa-solid fa-shield"></i>
           <h5>Protection with AirCover</h5>
           <p>The most comprehensive protection in travel. Always included, always free</p>
       </div>
 
-      <div class="features-card-1">
+      <div class="features-card">
         <i class="fa-solid fa-calendar"></i>
           <h5>Flexible cancellation options</h5>
-          <p>Canellation options make it easy to re-book if your plans change.</p>
+          <p>Cancellation options make it easy to re-book if your plans change.</p>
       </div>
 
-      <div class="features-card-1">
+      <div class="features-card">
           <i class="fa-solid fa-headset"></i>
           <h5>24/7 customer support</h5>
           <p>Talk to our support team from anywhere in the world, any hour of the day.</p>
       </div>
       
+    </div>
+    </div>
   </div>
 
 </div>
