@@ -52,12 +52,12 @@
           <div class="form-entry-1">
             <label for="query"><span>CHECK IN</span>
               <div>
-                <input type="text" placeholder="Add Date" id="query">
+                <input type="date" placeholder="Add Date" id="query" onfocus="this.showPicker()">
               </div>
             </label>
             <label for="query"><span>CHECK OUT</span>
               <div>
-                <input type="datetime" placeholder="Add Date" id="query">
+                <input type="date" placeholder="Add Date" id="query" onfocus="this.showPicker()">
               </div>
             </label>
           </div>
@@ -69,7 +69,7 @@
             </label>
             <label for="query"><span>CHILDREN</span>
               <div>
-                <input type="number" placeholder="Anywhere" id="query">
+                <input type="number" placeholder="2" id="query">
               </div>
             </label>
           </div>
@@ -184,8 +184,8 @@
 
       <div class="features-card">
         <i class="fa-solid fa-calendar"></i>
-          <h5>Flexible cancellation options</h5>
-          <p>Cancellation options make it easy to re-book if your plans change.</p>
+        <h5>Flexible cancellation options</h5>
+        <p>Cancellation options make it easy to re-book if your plans change.</p>
       </div>
 
       <div class="features-card">
@@ -207,7 +207,8 @@
   
   <div class="booked-wrapper">
     <h3>Just booked in the United States</h3>
-      <div class="booked-card">
+    <div class="booked-cards"> 
+    <div class="booked-card">
           <div class="booked-card-img">
               <img src="images/justbooked/dunlap-aframe.jpg">
           </div>
@@ -265,8 +266,8 @@
             <p>Trailer</p>
             <p><strong>$198</strong> night</p>
         </div>
-        
-    </div>
+      </div>
+    </div>  
     <div class="d-grid gap-2">
       <button type="button" class="btn btn-outline-dark btn-block">Show (2000+) </button>
   </div>
