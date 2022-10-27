@@ -51,7 +51,7 @@ table {
 
 .nav-flex-container {
 list-style: none;
-margin: 0px 80px;
+margin: 0px 90px;
 padding: 15px 0px;
 height: 75px;
 display: flex;
@@ -111,7 +111,7 @@ height: 100vh;
 }
 
 .heading-wrapper{
-margin: 0px 80px;
+margin: 0px 90px;
 padding: 40px 0px;
 position: relative;
 }
@@ -157,7 +157,7 @@ position: relative;
 }
 .background-card{
   margin-top: 75px;
-  margin-right: 80px;
+  margin-right: 90px;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -178,9 +178,9 @@ position: relative;
 .hosting-wrapper {
   position: relative;
   z-index: 2;
-  margin: 0px 80px;
+  margin: 0px 90px;
   max-width: 100%;
-  max-height: 435px;
+  max-height: 445px;
   
 }
 .hosting-card {
@@ -229,7 +229,7 @@ position: relative;
 /* */
 .hosting-image{
   position: static;
-  height: 435px;
+  height: 445px;
   max-width: 100%;
 }
 .hosting-image img {
@@ -246,10 +246,10 @@ position: relative;
 
 .review-container {
   margin: 0px 0px;
-  height: 95vh;
+  height: 88vh;
 }
 .review-wrapper {
-  margin: 0px 80px;
+  margin: 0px 90px;
 
 }
 .review-header {
@@ -265,7 +265,7 @@ position: relative;
   justify-items: stretch;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 15px;
+  gap: 20px;
 }
 .review-card{
 
@@ -324,15 +324,14 @@ position: relative;
 .features-container{
   margin: 0px 0px;
   height: 50vh;
-  }
-
-  .features-container hr:last-child{
-    margin: 0px 80px;
-    color: rgb(172, 172, 172);
-  }
-  .features-wrapper{
-  margin: 0px 75px;
-  height: 40vh;
+}
+.features-container hr:last-child{
+  margin: 5px 90px;
+  color: rgb(172, 172, 172);
+}
+.features-wrapper{
+  margin: 0px 90px;
+  height: 42vh;
   }
   .features-wrapper h4{
     font-size: 1.8em;
@@ -348,41 +347,51 @@ position: relative;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 15px;
   }
-  .features-card:nth-child(2){
+.features-card{
+  margin: 40px 0px;
+  width: 400px; /*keeps p text from running over space */
+}
 
-  }
-  .features-card i {
-    display: block;
-    font-size: 1.75em;
-    margin-bottom: 12px;
-  }
-  .features-card h5, p {
-    display: inline-block;
-  }
-  .features-card p {
-    font-size: 0.9em;
-  }
+.features-card i {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.features-card h5, p {
+  display: inline-block;
+}
+.features-card h5 {
+  font-size: 1.5em;
+}
+.features-card p {
+  font-size: 1.15em;
+}
+
+
 .booked-container {
   margin: 0px 0px;
   height: 82vh;
 }
 .booked-wrapper {
-  margin: 0px 80px;
+  margin: 0px 90px;
   position: relative;
-  height: 77vh;
+  height: 74vh;
   
 }
 .booked-wrapper h3 {
-  font-size: 1.8em;
+  font-size: 1.85em;
+  margin-bottom: 20px;
 }
 .booked-cards{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  height: 63vh;
+  justify-content: stretch;
+  gap: 12px;
+  height: 59vh;
 }
 .booked-card {
-  width: 300px;
-  height: 380px;
+  width: 315px;
+  height: 390px;
   /* float: left; */
   /* margin: 10px 7px 0px 0px; */
 }
@@ -392,24 +401,29 @@ position: relative;
   bottom: 0px;
   padding: 7px 20px;
   font-weight: 600;
+  font-size: 1.15em;
+  width: 180px;
+  height: 52px;
+  border-radius: 10px;
 }
 .booked-card-img {
-  width: 300px;
+  width: 315px;
   height: 300px;
 }
 .booked-card-img img {
   max-width: 100%;
   height: 300px;
+  width: 315px;
   object-fit: cover;
   border-radius: 15px;
 }
 .booked-card-img-even {
-  width: 300px;
+  width: 315px;
   height: 300px;
 }
 .booked-card-img-even img {
   max-width: 100%;
-  width: 300px;
+  width: 315px;
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
@@ -422,21 +436,21 @@ position: relative;
   margin-top: 15px;
 }
 .booked-card-content h5 {
-  font-size: 1.2em;
+  font-size: 1.05em;
   
 }
 .booked-card-content i {
   font-size: 0.8em;
-  position: absolute;
-  right: 28px;
-  top: 6px;
+  /* position: absolute;
+  right: 45px;
+  top: 7px; */
 
 }
 .booked-card-content p {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .booked-card-info {
-  height: 43px;
+  height: 50px;
   display: flex;
   align-content: flex-start;
   flex-flow: column nowrap;
@@ -452,6 +466,7 @@ position: relative;
   display: inline-flex;
   font-size: 0.95em;
   align-content: center;
+  margin-right: 3px;
 }
 
 .pre-footer {
@@ -463,7 +478,7 @@ position: relative;
   display: flex;
   flex-direction: column;
   height: 20vh;
-  margin: 0px 75px;
+  margin: 0px 90px;
 
   position: relative;
 }
@@ -486,7 +501,7 @@ color: rgb(117, 117, 117);
 }
 .travel-links {
   height: 5vh;
-  margin: 0px 75px;
+  margin: 0px 90px;
   display: flex;
   flex-direction: row;
 
@@ -514,7 +529,7 @@ color: rgb(117, 117, 117);
 
 .footer-wrapper {
   height: 10vh;
-  margin: 0px 75px;
+  margin: 0px 90px;
 } 
 .footer-wrapper hr{
   color: rgb(172, 172, 172);
