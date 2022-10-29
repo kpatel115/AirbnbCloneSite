@@ -457,16 +457,19 @@ position: relative;
 }
 .booked-card-info p:first-child {
   display: inline-flex;
-  font-size: 1.1em;
+  font-size: 1em;
   color: rgb(110, 110, 110);
   margin-bottom: 0px;
 }
 .booked-card-info p:last-child, strong{
   color: black;
   display: inline-flex;
-  font-size: 0.95em;
+  font-size: 1em;
   align-content: center;
   margin-right: 3px;
+}
+.booked-card-info p:last-of-type{
+  font-size: 1.1em;
 }
 
 .pre-footer {
@@ -486,13 +489,17 @@ position: relative;
   position: absolute;
   padding: 10px 20px;
   font-weight: 600;
+  font-size: 1.15em;
   bottom: 0px;
+  border-radius: 8px;
+  height: 55spx;
+  width: 145px;
 }
 .travel-section h2{
-font-size: 1.5em;
+font-size: 1.8em;
 }
 .travel-section p {
-font-size: 0.95em;
+font-size: 1.1em;
 color: rgb(117, 117, 117);
 }
 .pre-footer-2 {
@@ -507,8 +514,8 @@ color: rgb(117, 117, 117);
 
 }
 .travel-links h6 {
-  font-size: 0.9em;
-  padding: 0 5px;
+  font-size: 1.1em;
+  padding: 0 10px;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -524,7 +531,7 @@ color: rgb(117, 117, 117);
 }
 .footer-link-container {
   margin: 0px 0px;
-  height: 18vh;
+  height: 15vh;
 }
 
 .footer-wrapper {
@@ -538,15 +545,21 @@ color: rgb(117, 117, 117);
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 0.8em;
+  font-size: 1em;
   margin-left: -35px;
 }
 .footer-links li {
   padding: 0px 10px;
 }
 .social-links {
-
+  position: absolute;
   right: 0px;
+  margin-right: 90px;
+}
+#social i {
+  color: rgb(34, 34, 34);
+  font-size: 1.3em;
+  padding: 0px 3px;
 }
 
 @media only screen and (max-width: 1120px) {
