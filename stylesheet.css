@@ -390,7 +390,7 @@ position: relative;
   height: 59vh;
 }
 .booked-card {
-  width: 315px;
+  width: 320px;
   height: 390px;
   /* float: left; */
   /* margin: 10px 7px 0px 0px; */
@@ -407,23 +407,23 @@ position: relative;
   border-radius: 10px;
 }
 .booked-card-img {
-  width: 315px;
+  width: 320px;
   height: 300px;
 }
 .booked-card-img img {
   max-width: 100%;
   height: 300px;
-  width: 315px;
+  width: 320px;
   object-fit: cover;
   border-radius: 15px;
 }
 .booked-card-img-even {
-  width: 315px;
+  width: 320px;
   height: 300px;
 }
 .booked-card-img-even img {
   max-width: 100%;
-  width: 315px;
+  width: 320px;
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
