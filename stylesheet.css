@@ -807,5 +807,28 @@ color: rgb(117, 117, 117);
     object-fit: cover;
     border-radius: 15px;
 }
+.pre-footer {
+  margin: 0px 0px;
+  height: 30vh;
+}
+
+.travel-section{
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  margin: 0px 90px;
+
+  position: relative;
+}
+.travel-section button{
+  position: absolute;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1.15em;
+  bottom: 0px;
+  border-radius: 8px;
+  height: 55spx;
+  width: 100%;
+}
 
 }
