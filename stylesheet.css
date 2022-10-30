@@ -250,7 +250,6 @@ position: relative;
 }
 .review-wrapper {
   margin: 0px 90px;
-
 }
 .review-header {
 
@@ -320,7 +319,7 @@ position: relative;
   left: 70px;
   color: rgb(124, 124, 124);
 }
-
+/* features section*/
 .features-container{
   margin: 0px 0px;
   height: 50vh;
@@ -577,7 +576,7 @@ color: rgb(117, 117, 117);
     margin: 0px 40px;
   }
 }
-@media only screen and (max-width: 743px) {
+@media only screen and (max-width: 760px) {
   /* Nav Bar */
   .nav-flex-container {
     list-style: none;
@@ -587,7 +586,7 @@ color: rgb(117, 117, 117);
   }
   /* Heading Form*/
   .heading-container{
-    height: 73vh;
+    height: 77vh;
   }
   .heading-wrapper{
     height: auto;
@@ -637,7 +636,7 @@ color: rgb(117, 117, 117);
 .hosting-text{
   position: relative;
   z-index: 9;
-  height: 25vh;
+  height: 23vh;
   width:100%;
   /* display: flex;
   flex-direction: column;
@@ -650,7 +649,7 @@ color: rgb(117, 117, 117);
   font-size: 2.1em;
 
   position: absolute;
-  top: 0px;
+  top: 35px;
   left: 50%;
   margin-left: -86px;
   width: 172px;
@@ -659,24 +658,25 @@ color: rgb(117, 117, 117);
 .hosting-span{
   width: 76%;
   position: absolute;
-  top: 50px;
-  left: 7%;
+  top: 80px;
+  left: 14%;
   font-size: 1.2em;
 }
 .hosting-button {
   position: absolute;
-  top:0px;
+  top:122px;
   left: 50%;
-  width: 9.9em;
-  margin-left: -4.95em;
+  width: 8em;
+  margin-left: -4em;
 }
 .hosting-button button{
-  font-size: 1.1em;
-  font-weight: 600;
-  padding: 10px 23px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px;
+  line-height: 10px;
   border-radius: 8px;
-  width: 9em;
-  height: 3em;
+  width: 8em;
+  height: 2.4em;
   background-color: rgb(255, 255, 255);
 }
 
@@ -694,5 +694,56 @@ color: rgb(117, 117, 117);
     border-radius: 8px;
     height: inherit;
 }
+/* Review Section */
+.review-container {
+  margin: 0px 0px;
+  height: 303vh;
+}
+.review-wrapper{
+  margin: 0px 25px;
+}
+
+/* features section*/
+.features-container{
+  position: relative;
+  margin: 0px 0px;
+  height: 82vh;
+}
+.features-container hr:last-child{
+  margin: 5px 90px;
+  color: rgb(172, 172, 172);
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  
+}
+.features-wrapper hr{
+  color: rgb(172, 172, 172);
+  
+}
+.features-wrapper{
+
+  margin: 0px 25px;
+  height: 42vh;
+  }
+  .features-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+    }
+
+  .features-card{
+    margin: 0px 0px;
+    width: 100%; /*keeps p text from running over space */
+  }
+  .features-card i {
+    display: block;
+    font-size: 2em;
+    margin: 5px 0px;
+  }
+
+  /* Booked section*/
 
 }
