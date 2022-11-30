@@ -93,9 +93,6 @@ margin: 10px 0px;
   margin: 8px 15px 8px 15px;
 
 }
-.form-entry-1 span{
-
-}
 .form-entry-1 input{
   text-decoration: none;
   border: 1px solid white;
@@ -152,8 +149,6 @@ position: relative;
   font-size: 0.959em;
   color: rgb(109, 109, 109);
   line-height: 1.25em;
-}
-.background-wrapper{
 }
 .background-card{
   margin-top: 75px;
@@ -251,9 +246,6 @@ position: relative;
 .review-wrapper {
   margin: 0px 90px;
 }
-.review-header {
-
-}
 .review-header p, strong {
   color: gray;
   font-size: 1.3em;
@@ -265,9 +257,6 @@ position: relative;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 20px;
-}
-.review-card{
-
 }
 .review-image{
   width: auto;
@@ -331,21 +320,21 @@ position: relative;
 .features-wrapper{
   margin: 0px 90px;
   height: 42vh;
-  }
-  .features-wrapper h4{
-    font-size: 1.8em;
-  }
-  .features-wrapper hr{
-    color: rgb(172, 172, 172);
-  }
-  .features-cards{
+}
+.features-wrapper h4{
+  font-size: 1.8em;
+}
+.features-wrapper hr{
+  color: rgb(172, 172, 172);
+}
+.features-cards{
   display: grid;
   justify-content: stretch;
   justify-items: stretch;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 15px;
-  }
+}
 .features-card{
   margin: 40px 0px;
   width: 400px; /*keeps p text from running over space */
@@ -413,6 +402,7 @@ position: relative;
   max-width: 100%;
   height: 300px;
   width: 320px;
+  display: block;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -576,7 +566,10 @@ color: rgb(117, 117, 117);
     margin: 0px 40px;
   }
 }
-@media only screen and (max-wdith: 1465px){
+
+
+
+@media only screen and (max-width: 1420px){
   /* Nav Bar */
   .nav-flex-container {
     list-style: none;
@@ -697,12 +690,29 @@ color: rgb(117, 117, 117);
 /* Review Section */
 .review-container {
   margin: 0px 0px;
-  height: 303vh;
+  height: 88vh;
 }
 .review-wrapper{
   margin: 0px 25px;
 }
-
+.review-cards{
+  display: grid;
+  justify-content: stretch;
+  justify-items: stretch;
+  align-items: center;
+  grid-template-columns: 400px;
+  gap: 20px;
+}
+.review-image{
+  width: auto;
+  height: auto;
+} 
+.review-image img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  display:block ;
+}
 /* features section*/
 .features-container{
   position: relative;
@@ -829,8 +839,9 @@ color: rgb(117, 117, 117);
   border-radius: 8px;
   height: 55px;
   width: 100%;
-}
-}
+} 
+} 
+
 @media only screen and (max-width: 760px) {
   /* Nav Bar */
   .nav-flex-container {
@@ -1084,6 +1095,7 @@ color: rgb(117, 117, 117);
   border-radius: 8px;
   height: 55px;
   width: 100%;
+}.social-links{
+  display: none;
 }
-
 }
