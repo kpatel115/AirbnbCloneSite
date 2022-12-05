@@ -47,23 +47,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* End of CSS RESET*/
 
-.nav-flex-container {
-list-style: none;
-margin: 0px 90px;
-padding: 15px 0px;
-height: 75px;
-display: flex;
-flex-wrap: row nowrap;
-justify-content: flex-end;
-align-items: center;
+/* Nav Bar */
+.nav-flex-container { 
+  margin: 0px 90px;
+  padding: 15px 0px;
+  height: 75px;
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
 }
 .nav-item{
+  margin-right: 20px;
   font-weight: 500;
   font-size: 1em;
   list-style: none;
-  margin-right: 20px;
   letter-spacing: 0.005em;
 }
 .nav-item1{
@@ -74,24 +76,26 @@ align-items: center;
   color: #ff4668;
 }
 ul i {
-  color: #ff5674;
-  font-size: 2.3em;
   margin-right: 6px;
+  font-size: 2.3em;
+  color: #ff5674;
 }
 .nav-item:last-child{
   margin-right:10px ;
 }
+
+/* Form */
 .form-entry-1{
-border: 1px solid gainsboro;
-border-radius: 8px;
-margin: 10px 0px;
+  margin: 10px 0px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+
 }
 .form-entry-1 label{
-  padding: 5px;
-  font-weight: 600;
-  font-size: .7em;
   margin: 8px 15px 8px 15px;
-
+  padding: 5px;
+  font-size: .7em;
+  font-weight: 600;
 }
 .form-entry-1 input{
   text-decoration: none;
