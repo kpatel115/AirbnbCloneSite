@@ -114,7 +114,7 @@ ul i {
 
 .heading-container{
   margin: 0px 0px;
-  height: 100vh;
+  height: 105vh;
 
 }
 
@@ -179,7 +179,7 @@ ul i {
 /* Hosting Section*/
 .hosting-container {
   margin: 0px 0px;
-  height: 70vh;
+  height: 75vh;
 }
 .hosting-wrapper {
   z-index: 2;
@@ -267,7 +267,7 @@ ul i {
   justify-content: stretch;
   justify-items: stretch;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 .review-image{
@@ -344,7 +344,7 @@ ul i {
   justify-content: stretch;
   justify-items: stretch;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 15px;
 }
 .features-card{
@@ -385,10 +385,10 @@ ul i {
 }
 .booked-cards{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: stretch;
-  gap: 12px;
-  height: 59vh;
+  gap:1rem;
+  height: 65vh;
 }
 .booked-card {
   width: 320px;
@@ -414,6 +414,7 @@ ul i {
 .booked-card-img img {
   border-radius: 15px;
   max-width: 100%;
+  display: block;
   height: 300px;
   width: 320px;
   display: block;
@@ -425,6 +426,7 @@ ul i {
 }
 .booked-card-img-even img {
   max-width: 100%;
+  display: block;
   width: 320px;
   height: 300px;
   object-fit: cover;
@@ -580,8 +582,8 @@ color: rgb(117, 117, 117);
   }
 }
 */
-/*
-@media only screen and (max-width: 745px){
+
+@media only screen and (min-width: 745px){
 
   .nav-flex-container {
     list-style: none;
@@ -647,7 +649,7 @@ color: rgb(117, 117, 117);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content:center ; 
+  align-content:center ;*// 
 
 }
 .hosting-card h2{
@@ -702,7 +704,7 @@ color: rgb(117, 117, 117);
 
 .review-container {
   margin: 0px 0px;
-  height: 88vh;
+  height: 400vh;
 }
 .review-wrapper{
   margin: 0px 25px;
@@ -758,7 +760,7 @@ color: rgb(117, 117, 117);
 
   .features-card{
     margin: 0px 0px;
-    width: 100%; /*keeps p text from running over space 
+    width: 100%; /*keeps p text from running over space */
   }
   .features-card i {
     display: block;
@@ -788,21 +790,21 @@ color: rgb(117, 117, 117);
     font-size: 1.15em;
     width: 100%;
     height: 52px;
-    border-radius: 8px;
+    border-radius: 8px;*/
   }
   .booked-cards{
     display: flex;
     flex-direction:column;
     /* justify-content: center;
     align-items: center; 
-    height: 400vh;
+    height: 400vh;*/
   }
   .booked-card {
     width: 100%;
     height: 100vh;
     margin: 15px 0px;
     /* float: left; 
-    /* margin: 10px 7px 0px 0px; 
+    /* margin: 10px 7px 0px 0px; */
   }
   .booked-card-img {
     width: 100%;
