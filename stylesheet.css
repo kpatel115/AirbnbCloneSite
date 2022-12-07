@@ -551,6 +551,7 @@ color: rgb(117, 117, 117);
   align-items: center;
   font-size: 1em;
   margin-left: -35px;
+  list-style: none;
 }
 .footer-links li {
   padding: 0px 10px;
@@ -704,14 +705,14 @@ color: rgb(117, 117, 117);
 
 .review-container {
   margin: 0px 0px;
-  height: 400vh;
+  height: 250vh;
 }
 .review-wrapper{
   margin: 0px 25px;
 }
 .review-cards{
   display: grid;
-  justify-content: stretch;
+  justify-content: center;
   justify-items: stretch;
   align-items: center;
   grid-template-columns: 400px;
@@ -731,7 +732,7 @@ color: rgb(117, 117, 117);
 .features-container{
   position: relative;
   margin: 0px 0px;
-  height: 82vh;
+  height: 90vh;
 }
 .features-container hr:last-child{
   margin: 5px 90px;
@@ -775,7 +776,7 @@ color: rgb(117, 117, 117);
   .booked-wrapper {
     margin: 0px 25px;
     position: relative;
-    height: 447vh;
+    height: 450vh;
     
   }
   .booked-wrapper h3 {
@@ -839,7 +840,6 @@ color: rgb(117, 117, 117);
   flex-direction: column;
   height: 20vh;
   margin: 0px 90px;
-
   position: relative;
 }
 .travel-section button{
@@ -852,6 +852,16 @@ color: rgb(117, 117, 117);
   height: 55px;
   width: 100%;
 } 
+.footer-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.footer-links{
+
+  list-style: none
+}
+.social-links{
+  visibility: hidden;
 } 
 /*
 @media only screen and (max-width: 760px) {
