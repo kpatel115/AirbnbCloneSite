@@ -445,7 +445,7 @@ nav ul li {
     
 } 
 
-@media (max-width: 750px) {
+@media (min-width: 750px) {
     .background-card{
         display: none;
         visibility: hidden;

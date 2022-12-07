@@ -371,17 +371,17 @@ ul i {
 
 .booked-container {
   margin: 0px 0px;
-  height: 82vh;
+  height: 85vh;
 }
 .booked-wrapper {
   margin: 0px 90px;
   position: relative;
-  height: 74vh;
+  height: 82vh;
   
 }
 .booked-wrapper h3 {
-  margin-bottom: 20px;
-  font-size: 1.85em;
+  margin-bottom: 1.25rem;
+  font-size: 1.85rem;
 }
 .booked-cards{
   display: grid;
@@ -583,7 +583,7 @@ color: rgb(117, 117, 117);
 }
 */
 
-@media only screen and (min-width: 745px){
+@media only screen and (max-width: 745px){
 
   .nav-flex-container {
     list-style: none;
@@ -649,7 +649,7 @@ color: rgb(117, 117, 117);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content:center ;*// 
+  align-content:center ;*/
 
 }
 .hosting-card h2{
@@ -775,7 +775,7 @@ color: rgb(117, 117, 117);
   .booked-wrapper {
     margin: 0px 25px;
     position: relative;
-    height: 441vh;
+    height: 447vh;
     
   }
   .booked-wrapper h3 {
@@ -853,7 +853,6 @@ color: rgb(117, 117, 117);
   width: 100%;
 } 
 } 
-*/
 /*
 @media only screen and (max-width: 760px) {
 
@@ -1107,6 +1106,4 @@ color: rgb(117, 117, 117);
   width: 100%;
 }.social-links{
   display: none;
-}
-}
-*/
+} */ 
