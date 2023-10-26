@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Find homes in United States on Airbnb</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <!--FontAwesome Icons-->
+  <script src="https://kit.fontawesome.com/369fe9d219.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul class="nav-flex-container">
+        <i class="fa-brands fa-airbnb"></i>
+        <li class="nav-item nav-item1">airbnb</li>
+        <li class="nav-item nav-item2">Become a host</li>
+        <li class="nav-item nav-item3">Help</li>
+        <li class="nav-item nav-item4">Sign up</li>
+        <li class="nav-item nav-item5">Log in</li>
+      </ul>
+    </nav>
+  </header>
+  <section id="heading" class="heading-container">
+    <div class="heading-wrapper">
+      <div class="search-wrapper">
+        <div class="search-card">
+          <div class="search-heading">
+            <h2>Find places to stay on Airbnb</h2>
+            <p>Discover entire homes and private rooms perfect for any trip.</p>
+          </div>
+          <div class="form-entry-1">
+            <label for="query"><span>LOCATION</span>
+              <div>
+                <input type="text" placeholder="Anywhere" id="query">
+              </div>
+            </label>
+          </div>
+          <div class="form-entry-1">
+            <label for="query"><span>CHECK IN</span>
+              <div>
+                <input type="date" placeholder="Add Date" id="query" onfocus="this.showPicker()">
+              </div>
+            </label>
+            <label for="query"><span>CHECK OUT</span>
+              <div>
+                <input type="date" placeholder="Add Date" id="query" onfocus="this.showPicker()">
+              </div>
+            </label>
+          </div>
+          <div class="form-entry-1">
+            <label for="query"><span>ADULTS</span>
+              <div>
+                <input type="number" placeholder="2" id="query">
+              </div>
+            </label>
+            <label for="query"><span>CHILDREN</span>
+              <div>
+                <input type="number" placeholder="2" id="query">
+              </div>
+            </label>
+          </div>
+          <div class="amenities">
+            <h5>AMENITIES</h5>
+            <button type="button" class="btn btn-outline-dark">Hot Tub</button>
+            <button type="button" class="btn btn-outline-dark">Pool</button>
+            <button type="button" class="btn btn-outline-dark">WiFi</button>
+            <button type="button" class="btn btn-danger btn-lg col-12 mt-3 "><i
+                class="fa-solid fa-magnifying-glass"></i>Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-wrapper">
+      <div class="background-card">
+        <img src="images/vacation-house2.jpg" alt="suburban house">
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="hosting-container">
+    <div class="hosting-wrapper">
+      <div class="hosting-card">
+        <div class="hosting-text">
+          <div class="hosting-h2">
+            <h2>Try hosting</h2>
+          </div>
+          <div class="hosting-span">
+            <span>Earn up to $6,038/month by sharing your space in Chicago.</span>
+          </div>
+
+          <div class="hosting-button">
+            <button id="host-btn" type="button" class="btn btn-light" onclick="learnMore()">Learn more</button>
+          </div>
+
+        </div>
+        <div class="hosting-image">
+          <img src="images/hosting-house.jpg" alt="house at night">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="review-container">
+    <div class="review-wrapper">
+      <div class="review-header">
+        <h3>What guests are saying about homes in United States</h3>
+        <p>Over <strong>84,000,000</strong> guest reviews with an average of <strong>4.8 out of 5 stars</strong></p>
+      </div>
+      <div class="review-cards">
+        <div class="review-card">
+          <div class="review-image">
+            <img src="images/review/reviewinterior4.jpg" alt="interier-room1">
+          </div>
+          <div class="review-info">
+            <p>⭐⭐⭐⭐</p>
+            <p>"Amanda was a great host and her place was great. My parents stayed her, and they loved the brownies,
+              fresh fruit, and heated tile floors in the bathroom! They said it was quiet and ..."
+            </p>
+          </div>
+          <div class="review-profile">
+            <img class="review-profile-pic" src="images/profilepics/profile-boy.png" />
+            <h4>Jason</h4>
+            <p>United States</p>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-image">
+            <img src="images/review/reviewinterior2.jpg" alt="interier-room1">
+          </div>
+          <div class="review-info">
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>"12/10 recommend Angie’s Airbnb. It was the perfect size, amazing location, and super comfortable! I’ve stayed at plenty airbnbs but Angie’s is one of the best I’ve stayed at! ..."
+            </p>
+          </div>
+          <div class="review-profile">
+            <img class="review-profile-pic" src="images/profilepics/profile-girl2.png" />
+            <h4>Sarah</h4>
+            <p>United States</p>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-image">
+            <img src="images/review/reviewinterior3.jpg" alt="interier-room1">
+          </div>
+          <div class="review-info">
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>"The location was great, the place was clean and restful. Our host and hostess were incredibly friendly and welcoming. We would love to stay there again!"
+            </p>
+          </div>
+          <div class="review-profile">
+            <img class="review-profile-pic" src="images/profilepics/profile-girl.png" />
+            <h4>Ashley</h4>
+            <p>United States</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features-container">
+    <div class="features-wrapper">
+      <h4>Travel with peace of mind when you book on Airbnb</h4>
+      <hr>
+      <div class="features-cards">
+
+        <div class="features-card">
+          <i class="fa-solid fa-shield"></i>
+          <h5>Protection with AirCover</h5>
+          <p>The most comprehensive protection in travel. Always included, always free</p>
+        </div>
+
+        <div class="features-card">
+          <i class="fa-solid fa-calendar"></i>
+          <h5>Flexible cancellation options</h5>
+          <p>Cancellation options make it easy to re-book if your plans change.</p>
+        </div>
+
+        <div class="features-card">
+          <i class="fa-solid fa-headset"></i>
+          <h5>24/7 customer support</h5>
+          <p>Talk to our support team from anywhere in the world, any hour of the day.</p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+    </div>
+    <hr>
+  </section>
+
+  <section class="booked-container">
+    <div class="booked-wrapper">
+      <h3>Just booked in the United States</h3>
+      <div class="booked-cards">
+        <div class="booked-card">
+          <div class="booked-card-img">
+            <img src="images/justbooked/dunlap-aframe.jpg">
+          </div>
+          <div class="booked-card-content">
+            <h5>Cabin - Rockbridge</h5>
+            
+            <p><i class="fa-solid fa-star"></i> 4.96 (120)</p>
+          </div>
+          <div class="booked-card-info">
+            <p>Dunlap Hollow A-Frame</p>
+            <p><strong>$673</strong> night</p>
+          </div>
+        </div>
+
+        <div class="booked-card">
+          <div class="booked-card-img-even">
+            <img src="images/justbooked/bookedhouse2.jpg">
+          </div>
+          <div class="booked-card-content">
+            <h5>Beach House - Los Angelos</h5>
+            
+            <p><i class="fa-solid fa-star"></i> 4.91 (249)</p>
+          </div>
+          <div class="booked-card-info">
+            <p>Condo</p>
+            <p><strong>$673</strong> night</p>
+          </div>
+        </div>
+
+        <div class="booked-card">
+          <div class="booked-card-img">
+            <img src="images/justbooked/bookedhouse3.jpg">
+          </div>
+          <div class="booked-card-content">
+            <h5>House - Ireland</h5>
+            
+            <p><i class="fa-solid fa-star"></i> 4.75 (81)</p>
+          </div>
+          <div class="booked-card-info">
+            <p>Residential Estate</p>
+            <p><strong>$350</strong> night</p>
+          </div>
+        </div>
+
+        <div class="booked-card">
+          <div class="booked-card-img-even">
+            <img src="images/justbooked/bookedhouse4.jpg">
+          </div>
+          <div class="booked-card-content">
+            <h5>Trailer House - Maine</h5>
+            
+            <p><i class="fa-solid fa-star"></i> 4.65 (800)</p>
+          </div>
+          <div class="booked-card-info">
+            <p>Trailer</p>
+            <p><strong>$198</strong> night</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2">
+        <button type="button" class="btn btn-outline-dark btn-block">Show (2000+) > </button>
+      </div>
+
+    </div>
+  </section>
+  <section class="pre-footer">
+
+    <div class="travel-section">
+      <h2>When are you traveling?</h2>
+      <p>Add dates for updated pricing and availability</p>
+      <br>
+
+      <!-- <div class="d-grid gap-2"> -->
+      <button  type="button" class="btn btn-dark"><a id="btn-date" href="#header"> Add dates </a></button>
+      <!-- </div> -->
+    </div>
+
+
+  </section>
+  <section class="pre-footer-2">
+    <div class="travel-links">
+      <h6><a>Airbnb</a></h6>
+      <h5>></h5>
+      <h6><a>Stays</a></h6>
+      <h5>></h5>
+      <h6>United States</h6>
+
+    </div>
+
+  </section>
+
+  <section class="footer-link-container">
+    <div class="footer-wrapper">
+      <hr>
+      <ul class="footer-links">
+        <li>© 2022 Airbnb, Inc. All rights reserved</li>
+        <li class="footer-link">Privacy</li>
+        <li class="footer-link">Terms</li>
+        <li class="footer-link">Site Map</li>
+      </ul>
+      <div class="social-links" id="social">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      
+    </div>
+  </section>
+<script src="script.js"></script>
+</body>
+
+</html>
